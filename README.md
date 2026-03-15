@@ -49,8 +49,7 @@ jain-foam-website/
 ├── server/                # Backend (Node/Express)
 │   ├── index.ts          # Express server setup
 │   ├── routes.ts         # API routes
-│   ├── database.ts       # MongoDB initialization & seeding
-│   ├── mongodb.ts       # MongoDB collections & GridFS
+│   ├── mongodb.ts        # MongoDB collections & GridFS
 │   ├── storage.ts        # Data access layer
 │   ├── cloudinary.ts     # Cloudinary image upload
 │   ├── email.ts          # Brevo email service
