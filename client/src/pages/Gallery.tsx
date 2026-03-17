@@ -137,13 +137,13 @@ export default function Gallery() {
             Stay updated with our latest products, offers, and home décor inspiration
           </p>
           <a
-            href="https://www.instagram.com/jain_foam"
+            href="https://www.instagram.com/jain_furnishing_studio/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button size="lg" data-testid="button-follow-instagram">
               <Instagram className="w-5 h-5 mr-2" />
-              Follow @jain_foam
+              Follow @jain_furnishing_studio
             </Button>
           </a>
         </div>

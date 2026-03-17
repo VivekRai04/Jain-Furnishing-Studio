@@ -93,20 +93,20 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Address",
-      content: "Shop No. 8-9, Panch Bhagini Sadan, BP Road, Opp. Vijay Punjab Hotel, Bhayandar East, Thane, Maharashtra 401105",
+      content: "Shop no. 8, Poonam Residency, 103/104, Srishti Rd, near Poonam Estate Cluster, Co-Operative Housing Society, Gaurav Galaxy, Mira Road East, Mira Bhayandar, Maharashtra 401107",
       link: null,
     },
     {
       icon: Phone,
       title: "Phone",
-      content: "083690 51217",
-      link: "tel:08369051217",
+      content: "08976360450",
+      link: "tel:08976360450",
     },
     {
       icon: Mail,
       title: "Email",
-      content: "jainfoamf@gmail.com",
-      link: "mailto:jainfoamf@gmail.com",
+      content: "jainfurnishingstudio@gmail.com",
+      link: "mailto:jainfurnishingstudio@gmail.com",
     },
     {
       icon: Clock,
@@ -313,22 +313,22 @@ export default function Contact() {
               <h2 className="text-2xl font-serif font-bold mb-4">Find Us</h2>
               <div className="rounded-lg overflow-hidden border h-80 relative group">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.0!2d72.85!3d19.30!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE4JzAwLjAiTiA3MsKwNTEnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7531.942335336082!2d72.86315939509394!3d19.283620004782215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1acd92a2895%3A0x11c296868593bfcc!2sJain%20Furnishing%20Studio%20-%20Mattress%2C%20Curtains%2C%20Sofa%2C%20Wallpaper%2C%20Carpets!5e0!3m2!1sen!2sin!4v1773763711472!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Jain Foam & Furnishing Location"
+                  title="Jain Furnishing Studio Location"
                   data-testid="map-contact"
                 />
                 <a
-                  href="https://maps.app.goo.gl/fXJRqf6atTywARY2A"
+                  href="https://maps.app.goo.gl/CP1ZE3kZ1AtoPgVj6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute inset-0 cursor-pointer hover:bg-black/10 transition-colors"
-                  title="Click to view Jain Foam & Furnishing in Google Maps"
+                  title="Click to view Jain Furnishing Studio in Google Maps"
                 />
               </div>
             </div>
@@ -346,7 +346,7 @@ export default function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=19.30,72.85"
+              href="https://www.google.com/maps/dir/?api=1&destination=19.283620004782215,72.86315939509394"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -354,7 +354,7 @@ export default function Contact() {
                 Get Directions
               </Button>
             </a>
-            <a href="tel:08369051217">
+            <a href="tel:08976360450">
               <Button
                 size="lg"
                 variant="secondary"

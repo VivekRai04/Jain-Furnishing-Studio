@@ -30,19 +30,19 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center md:justify-between gap-4 text-sm">
           <div className="flex items-center gap-6">
             <a
-              href="tel:08369051217"
+              href="tel:08976360450"
               className="flex items-center gap-2 hover-elevate px-3 py-1 rounded-md transition-all"
               data-testid="link-phone"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">083690 51217</span>
+              <span className="font-medium">08976360450</span>
             </a>
             <span className="hidden md:inline text-primary-foreground/80">
-              Mon-Sun: 10:00 AM - 10:00 PM
+              Mon-Sun: 10:00 AM - 11:00 PM
             </span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-primary-foreground/80"><b>30+ years of trust</b></span>
+            <span className="text-primary-foreground/80"><b>30+ years of Experience</b></span>
           </div>
         </div>
       </div>
@@ -55,13 +55,13 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3" onClick={() => window.scrollTo(0, 0)} data-testid="link-home">
-              <img src="/logo.png" alt="Jain Foam Logo" className="h-10 w-auto" />
+              <img src="/logo.png" alt="Jain Furnishing Studio Logo" className="h-10 w-auto" />
               <div className="flex flex-col">
                 <span className="text-2xl font-serif font-bold text-foreground">
-                  Jain Foam & Furnishing
+                  Jain Furnishing Studio
                 </span>
                 <span className="text-xs text-muted-foreground">
-                  Quality Home Furnishings Since 1995
+                  Quality Home Furnishings
                 </span>
               </div>
             </Link>
@@ -85,7 +85,7 @@ export function Navigation() {
 
             <div className="hidden lg:flex items-center gap-4">
               <a
-                href="https://www.instagram.com/jain_foam"
+                href="https://www.instagram.com/jain_furnishing_studio/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-instagram"

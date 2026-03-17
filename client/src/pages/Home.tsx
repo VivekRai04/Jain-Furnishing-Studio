@@ -42,7 +42,7 @@ export default function Home() {
     {
       icon: Users,
       title: "30+ Years Experience",
-      description: "Trusted by thousands across Bhayandar, Mira Road & Dahisar",
+      description: "Trusted by thousands of happy customers all across Mumbai",
     },
     {
       icon: Truck,
@@ -94,7 +94,7 @@ export default function Home() {
             Your One-Stop Destination for Mattresses, Curtains, Sofas & Home Furnishings.
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Discover premium home décor essentials at Jain Foam & Furnishing — the most trusted furnishing shop in Bhayandar East for over 30 years. From luxury mattresses to custom-made sofas, wallpapers, carpets, and blinds, we help you transform your home with quality and style.
+            Discover premium home décor essentials at Jain Furnishing Studio — a new studio with years of experience in furnishing and foam solutions. From luxury mattresses to custom-made sofas, wallpapers, carpets, and blinds, we help you transform your home with quality and style.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/products" onClick={() => window.scrollTo(0, 0)}>
@@ -192,10 +192,10 @@ export default function Home() {
             <div>
               <Badge className="mb-4" data-testid="badge-about">About Us</Badge>
               <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-                Bhayandar's Most Trusted Furnishing Shop Since 1995
+                A New Studio with Years of Experience in Furnishing & Foam Solutions
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Jain Foam & Furnishing has been Bhayandar's leading home décor and furnishing destination since 1995. With thousands of happy customers all across Mumbai, we specialize in high-quality mattresses, curtains, wallpapers, PVC flooring, sofa repair, and custom furnishing solutions.
+                Jain Furnishing Studio has been Mira Road's leading home décor and furnishing destination with years of experience. With thousands of happy customers all across Mumbai, we specialize in high-quality mattresses, curtains, wallpapers, PVC flooring, sofa repair, and custom furnishing solutions.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Our 30+ years of experience, customer-first approach, and wide product range make us the most trusted furnishing shop in the Mira-Bhayandar region.
@@ -214,7 +214,7 @@ export default function Home() {
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
                 src={aboutImage}
-                alt="Jain Foam & Furnishing"
+                alt="Jain Furnishing Studio"
                 className="w-full h-auto object-cover"
                 data-testid="img-about"
               />

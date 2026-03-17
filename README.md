@@ -1,6 +1,6 @@
-# Jain Foam Website
+# Jain Furnishing Studio Website
 
-A modern, full-stack website for Jain Foam featuring product showcases, galleries, contact management, and an admin dashboard.
+A modern, full-stack website for Jain Furnishing Studio featuring product showcases, galleries, contact management, and an admin dashboard.
 
 ## 🎯 Features
 

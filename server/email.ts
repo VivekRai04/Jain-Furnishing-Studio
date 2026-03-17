@@ -20,8 +20,8 @@ class EmailService {
     try {
       const payload = {
         sender: {
-          name: 'Jain Foam & Furnishing',
-          email: 'jainfoamf@gmail.com' // Must be verified in Brevo
+          name: 'Jain Furnishing Studio',
+          email: 'jainfurnishingstudio@gmail.com' // Must be verified in Brevo
         },
         to: [{
           email: options.to,
@@ -68,8 +68,8 @@ class EmailService {
 <!-- Header -->
 <tr>
   <td style="padding:28px;text-align:center;background:#ffffff;border-bottom:1px solid #f0f0f0;">
-    <img src="https://res.cloudinary.com/dw3rgs0ku/image/upload/logo_ws4lml.jpg"
-    alt="Jain Foam & Furnishing"
+    <img src="https://res.cloudinary.com/dw3rgs0ku/image/upload/v1773764240/logo_ws4lml.png"
+    alt="Jain Furnishing Studio"
     style="max-height:65px;">
   </td>
 </tr>
@@ -169,7 +169,7 @@ class EmailService {
 <tr>
   <td style="background:#f5f7fa;padding:22px;text-align:center;font-size:12px;color:#6b7280;">
     This inquiry was submitted from the 
-    <strong>Jain Foam & Furnishing</strong> website contact form.
+    <strong>Jain Furnishing Studio</strong> website contact form.
   </td>
 </tr>
 
@@ -194,7 +194,7 @@ ${inquiry.message}
 Please respond to this inquiry as soon as possible.
     `;
 
-    const toEmail = process.env.CONTACT_EMAIL || 'jainfoamf@gmail.com';
+    const toEmail = process.env.CONTACT_EMAIL || 'jainfurnishingstudio@gmail.com';
     if (!toEmail) {
       throw new Error('CONTACT_EMAIL is not configured');
     }

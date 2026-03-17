@@ -49,7 +49,7 @@ export default function About() {
     {
       icon: Users,
       title: "Community Trust",
-      description: "Thousands of happy families across Bhayandar, Mira Road, and Dahisar trust us.",
+      description: "Thousands of happy families across Mumbai.",
     },
   ];
 
@@ -70,10 +70,10 @@ export default function About() {
       description: "Embraced technology while maintaining our personal touch and service quality",
     },
     {
-      year: "2025",
-      title: "Three Decades",
-      description: "Celebrating 30+ years of trust, quality, and serving thousands of happy customers",
-    },
+    year: "2026",
+    title: "A New Chapter",
+    description: "Launched Jain Furnishing Studio in Mira Road, bringing decades of experience into a modern, customer-focused studio environment."
+    }
   ];
 
   return (
@@ -89,7 +89,7 @@ export default function About() {
             30+ Years of Trust & Excellence
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Jain Foam & Furnishing has been Bhayandar's leading home décor and furnishing destination since 1995
+            Jain Furnishing Studio has been Mira Road's leading home décor and furnishing destination with years of experience
           </p>
         </div>
       </section>
@@ -101,14 +101,13 @@ export default function About() {
               Your Trusted Partner in Home Furnishings
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                Unleash your creativity with Jain Foam & Furnishing, Bhayandar East, Thane's go-to home décor and furnishing destination since 1995. With over three decades of experience, this one-stop-shop boasts a splendid selection of imported wallpapers, customized 3D wallpapers, resilient P.V.C and vinyl flooring, lively artificial grass, elegant blinds, and functional doormats.
+              <p> Jain Furnishing Studio is Mira Road East’s newly launched home décor and furnishing destination, built on a legacy of over three decades in the industry. With years of hands-on experience behind us, we bring a refined studio experience that blends trusted craftsmanship with modern design sensibilities.
               </p>
-              <p>
-                Dive into an array of rugs, carpets, curtains, mattresses, pillows, and bed sheets to complement your unique décor vision. Our commitment to quality and customer satisfaction has made us the most trusted furnishing shop in the Mira-Bhayandar region.
+              <p> Discover a thoughtfully curated range of imported wallpapers, customized 3D wallpapers, durable PVC and vinyl flooring, artificial grass, stylish blinds, and practical doormats—each selected to elevate both aesthetics and functionality in your space.
               </p>
-              <p>
-                With thousands of happy customers across Bhayandar, Mira Road, and Dahisar, we specialize in high-quality mattresses, curtains, wallpapers, PVC flooring, sofa repair, and custom furnishing solutions. Our 30+ years of experience, customer-first approach, and wide product range continue to serve families with dedication and excellence.
+              <p> Enhance your interiors with our collection of rugs, carpets, curtains, mattresses, pillows, and bed sheets, tailored to suit every style and comfort need. Having served thousands of satisfied customers across Mumbai, we continue our journey with the same dedication—now in a fresh, contemporary setting.
+              </p>
+              <p> From premium mattresses and designer curtains to wallpaper installation, PVC flooring, sofa repair, and complete custom furnishing solutions, Jain Furnishing Studio stands for quality, reliability, and personalized service—reimagined for today’s homes.
               </p>
             </div>
             <div className="mt-8">
@@ -122,7 +121,7 @@ export default function About() {
           <div className="order-1 lg:order-2 rounded-lg overflow-hidden shadow-xl">
             <img
               src={shopImage}
-              alt="Jain Foam & Furnishing Store"
+              alt="Jain Furnishing Studio Store"
               className="w-full h-auto object-cover"
               data-testid="img-shop"
               loading="lazy"
@@ -205,7 +204,7 @@ export default function About() {
       <section className="py-20 bg-primary text-primary-foreground observe-slide-up opacity-0">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-            Experience the Jain Foam & Furnishing Difference
+            Experience the Jain Furnishing Studio Difference
           </h2>
           <p className="text-lg text-primary-foreground/90 mb-8">
             Visit our showroom to explore our complete range and experience our commitment to quality firsthand
@@ -216,13 +215,13 @@ export default function About() {
                 Visit Our Showroom
               </Button>
             </Link>
-            <a href="tel:08369051217">
+            <a href="tel:08976360450">
               <Button
                 size="lg"
                 variant="secondary"
                 data-testid="button-cta-call"
               >
-                Call 083690 51217
+                Call 08976360450
               </Button>
             </a>
           </div>

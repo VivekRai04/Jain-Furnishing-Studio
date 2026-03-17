@@ -17,13 +17,13 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-serif font-bold mb-4">Jain Foam & Furnishing</h3>
+            <h3 className="text-lg font-serif font-bold mb-4">Jain Furnishing Studio</h3>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Bhayandar's leading home décor and furnishing destination since 1995. Trusted by thousands across Mumbai.
+              A new studio with years of experience in furnishing and foam solutions. Trusted by thousands across Mumbai.
             </p>
             <div className="flex items-center gap-2">
               <a
-                href="https://www.instagram.com/jain_foam"
+                href="https://www.instagram.com/jain_furnishing_studio"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-footer-instagram"
@@ -33,7 +33,7 @@ export function Footer() {
                 </Button>
               </a>
               <a
-                href="tel:08369051217"
+                href="tel:08976360450"
                 data-testid="link-footer-phone-button"
               >
                 <Button variant="outline" size="icon" className="hover-elevate">
@@ -68,33 +68,33 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 text-primary" />
                 <span className="text-muted-foreground" data-testid="text-address">
-                  Shop No. 8-9, Panch Bhagini Sadan, BP Road, Opp. Vijay Punjab Hotel, Bhayandar East, Thane, Maharashtra 401105
+                  Shop no. 8, Poonam Residency, 103/104, Srishti Rd, near Poonam Estate Cluster, Co-Operative Housing Society, Gaurav Galaxy, Mira Road East, Mira Bhayandar, Maharashtra 401107
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0 text-primary" />
                 <a
-                  href="tel:08369051217"
+                  href="tel:08976360450"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   data-testid="link-footer-phone"
                 >
-                  083690 51217
+                  08976360450
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0 text-primary" />
                 <a
-                  href="mailto:jainfoamf@gmail.com"
+                  href="mailto:jainfurnishingstudio@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   data-testid="link-footer-email"
                 >
-                  jainfoamf@gmail.com
+                  jainfurnishingstudio@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="w-4 h-4 flex-shrink-0 text-primary" />
                 <span className="text-muted-foreground" data-testid="text-hours">
-                  Mon-Sun: 10:00 AM - 10:00 PM
+                  Everyday: 10:00 AM - 11:00 PM
                 </span>
               </li>
             </ul>
@@ -104,22 +104,22 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Location</h3>
             <div className="rounded-lg overflow-hidden border h-48 relative group">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.0!2d72.85!3d19.30!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE4JzAwLjAiTiA3MsKwNTEnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7531.942335336082!2d72.86315939509394!3d19.283620004782215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1acd92a2895%3A0x11c296868593bfcc!2sJain%20Furnishing%20Studio%20-%20Mattress%2C%20Curtains%2C%20Sofa%2C%20Wallpaper%2C%20Carpets!5e0!3m2!1sen!2sin!4v1773763711472!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Jain Foam & Furnishing Location"
+                title="Jain Furnishing Studio Location"
                 data-testid="map-footer"
               />
               <a
-                href="https://maps.app.goo.gl/fXJRqf6atTywARY2A"
+                href="https://maps.app.goo.gl/CP1ZE3kZ1AtoPgVj6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute inset-0 cursor-pointer hover:bg-black/10 transition-colors"
-                title="Click to view Jain Foam & Furnishing in Google Maps"
+                title="Click to view Jain Furnishing Studio in Google Maps"
               />
             </div>
           </div>
@@ -127,7 +127,7 @@ export function Footer() {
 
         <div className="border-t mt-8 pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Jain Foam & Furnishing. All rights reserved. | 30+ Years of Trust & Quality
+            © {new Date().getFullYear()} Jain Furnishing Studio. All rights reserved. | Years of Experience in Furnishing Solutions
           </p>
         </div>
       </div>

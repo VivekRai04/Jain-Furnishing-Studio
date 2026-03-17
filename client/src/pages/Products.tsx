@@ -104,7 +104,7 @@ export default function Products() {
             Premium Home Furnishing Solutions
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            At Jain Foam & Furnishing, Bhayandar East, we offer a comprehensive range of high-quality products at the best prices, with expert guidance and same-day delivery.
+            At Jain Furnishing Studio, Mira Road East, we offer a comprehensive range of high-quality products at the best prices, with expert guidance and same-day delivery.
           </p>
         </div>
       </section>
