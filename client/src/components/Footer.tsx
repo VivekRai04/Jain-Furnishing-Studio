@@ -8,8 +8,7 @@ export function Footer() {
     { href: "/products", label: "Products & Services", scrollTop: true },
     { href: "/about", label: "About Us", scrollTop: true },
     { href: "/gallery", label: "Gallery", scrollTop: true },
-    { href: "/contact", label: "Contact" },
-    { href: "/admin/login", label: "Admin", scrollTop: true },
+    { href: "/contact", label: "Contact", scrollTop: true },
   ];
 
   return (
