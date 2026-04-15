@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 
-const password = 'JainFoam1995';
+const password = 'JainStudio2026';
 const saltRounds = 10;
 
 bcrypt.hash(password, saltRounds).then((hash) => {
